@@ -21,9 +21,11 @@ System.out.println("length of line 1 is"+ length1+"and 2nd line length is"+lengt
 if(length1==length2){
 System.out.println("lines are equal");
 }
-else{
-System.out.println("lines are not equal");
+else if(length1<length2){
+System.out.println("line 1 is less than line 2");
 }
-
+else{
+System.out.println("line 1 is greater than line 2");
+}
 }
 }
